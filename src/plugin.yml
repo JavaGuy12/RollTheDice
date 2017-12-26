@@ -1,0 +1,16 @@
+name: RollTheDice
+verison: 1.0.0
+author: ITGuy12
+main: me.ITGuy12.rollthedice.Main
+command:
+  dice:
+    aliases: [die, roll]
+    description: Roll a dice. Permission - rtd.dice
+  random:
+    aliases: [rn, randomnumber]
+    description: Generate a random number with the max you pass. Permission - rtd.random.
+permissions:
+  rtd.dice:
+    description: Permission for /dice.
+  rtd.randomnumber:
+    description: Permission for /random.
